@@ -15,7 +15,7 @@
         - name: Run tests
           run: npm test
     deploy:
-      runs-on: actions/checkout@v4
+      runs-on: ubuntu-latest
       steps:
         - name: Code Checkout
           uses: actions/checkout@v4
